@@ -1,0 +1,20 @@
+{
+  "name": "deer-flow-local",
+  "interface": {
+    "displayName": "DeerFlow Local"
+  },
+  "plugins": [
+    {
+      "name": "deer-flow",
+      "source": {
+        "source": "local",
+        "path": "./plugins/deer-flow"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
