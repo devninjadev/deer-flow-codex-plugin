@@ -97,7 +97,7 @@ make check-agent-guidance                          # size budget of these guides
   `version` and `appVersion` in `deploy/helm/deer-flow/Chart.yaml`.
   `scripts/bump_version.sh <ver>` updates them and `backend/uv.lock`, and
   `scripts/verify_versions.sh <ver>` checks the result. Tag CI blocks publishing
-  on drift. See [RELEASING.md](RELEASING.md).
+  on drift. See [RELEASING.md](https://github.com/bytedance/deer-flow/blob/585abb979fbc483485c0fc53ed0e571ab7eebadb/RELEASING.md).
 
 ## What belongs in an `AGENTS.md`
 

@@ -3,13 +3,13 @@
   "version": "1.0.2",
   "description": "Public skills from https://github.com/bytedance/deer-flow/tree/main/skills/public (upstream commit 585abb979fbc483485c0fc53ed0e571ab7eebadb).",
   "author": {
-    "name": "Local package"
+    "name": "devninjadev"
   },
   "skills": "./skills/",
   "interface": {
-    "displayName": "DeerFlow Skills",
+    "displayName": "DeerFlow Skills for Codex (비공식)",
     "shortDescription": "DeerFlow 공개 스킬 23개",
-    "developerName": "Local package",
+    "developerName": "devninjadev",
     "category": "Productivity",
     "websiteURL": "https://github.com/devninjadev/deer-flow-codex-plugin",
     "defaultPrompt": "DeerFlow 사용자 매뉴얼을 열어줘."

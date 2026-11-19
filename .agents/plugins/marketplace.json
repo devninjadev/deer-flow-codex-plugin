@@ -1,7 +1,7 @@
 {
   "name": "deer-flow-local",
   "interface": {
-    "displayName": "DeerFlow Local"
+    "displayName": "DeerFlow Skills for Codex (비공식)"
   },
   "plugins": [
     {

@@ -162,7 +162,7 @@ These span both layers and require reading multiple files to understand:
 - **Version sources** — a release version must match in `backend/pyproject.toml`,
   `frontend/package.json`, and `deploy/helm/deer-flow/Chart.yaml` (`version` + `appVersion`),
   and `backend/uv.lock` must not be stale; pushing a `v*` tag triggers CI that runs
-  `scripts/verify_versions.sh` (including `uv lock --check`) and blocks all publishing on drift. See [`RELEASING.md`](../RELEASING.md).
+  `scripts/verify_versions.sh` (including `uv lock --check`) and blocks all publishing on drift. See [`RELEASING.md`](https://github.com/bytedance/deer-flow/blob/585abb979fbc483485c0fc53ed0e571ab7eebadb/RELEASING.md).
 
 ---
 
@@ -192,6 +192,6 @@ These span both layers and require reading multiple files to understand:
 - System topology & component depth → [`backend/docs/ARCHITECTURE.md`](../backend/docs/ARCHITECTURE.md)
 - Backend commands, TDD, harness/app boundary, config reload → [`backend/AGENTS.md`](../backend/AGENTS.md)
 - Frontend commands, source layout, streaming data flow → [`frontend/AGENTS.md`](../frontend/AGENTS.md)
-- Setup & install → [`Install.md`](../Install.md), [`CONTRIBUTING.md`](https://github.com/bytedance/deer-flow/blob/585abb979fbc483485c0fc53ed0e571ab7eebadb/CONTRIBUTING.md)
-- Release process → [`RELEASING.md`](../RELEASING.md)
+- Setup & install → [`Install.md`](https://github.com/bytedance/deer-flow/blob/585abb979fbc483485c0fc53ed0e571ab7eebadb/Install.md), [`CONTRIBUTING.md`](https://github.com/bytedance/deer-flow/blob/585abb979fbc483485c0fc53ed0e571ab7eebadb/CONTRIBUTING.md)
+- Release process → [`RELEASING.md`](https://github.com/bytedance/deer-flow/blob/585abb979fbc483485c0fc53ed0e571ab7eebadb/RELEASING.md)
 - User-facing features & deployment sizing → [`README.md`](../README.md)

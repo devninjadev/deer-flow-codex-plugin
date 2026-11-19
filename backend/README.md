@@ -1,6 +1,6 @@
 # DeerFlow Backend
 
-**Language:** English | [简体中文](README_zh.md)
+This directory contains the upstream DeerFlow backend. See the [Korean README for the unofficial Codex plugin](../README.md).
 
 DeerFlow is a LangGraph-based AI super agent with sandbox execution, persistent memory, and extensible tool integration. The backend enables AI agents to execute code, browse the web, manage files, delegate tasks to subagents, and retain context across conversations - all in isolated, per-thread environments.
 
