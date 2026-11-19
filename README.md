@@ -9,3 +9,7 @@
 ## 라이선스
 
 이 포크에서 작성한 플러그인 설정과 안내 문서에는 [BSD-3-Clause](LICENSE)를 적용합니다. ByteDance와 DeerFlow 저자들의 원본 코드와 문서에는 [원본 MIT 라이선스](LICENSES/DeerFlow-MIT.txt)가 적용됩니다. 개별 스킬의 별도 라이선스는 [플러그인 안내](plugins/deer-flow/README.md)에서 확인할 수 있습니다.
+
+## 유지보수
+
+새 DeerFlow 버전을 반영하는 절차와 보존할 파일은 [포크 업데이트 지침](UPDATING.md)에 정리했습니다.

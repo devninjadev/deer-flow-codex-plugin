@@ -1,5 +1,9 @@
 # DeerFlow
 
+## 비공식 Codex 포크 업데이트
+
+원본의 새 버전을 반영할 때는 먼저 [포크 업데이트 지침](UPDATING.md)을 읽고, 보존할 파일과 다시 가져오지 않을 자료를 확인한다.
+
 DeerFlow is an agent harness: a LangGraph-based backend with thread-isolated
 sandboxes, memory, subagents, skills and MCP tools, and a Next.js frontend. IM
 channels connect through the Gateway. `CLAUDE.md` imports this file; edit
