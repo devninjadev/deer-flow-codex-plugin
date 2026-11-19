@@ -1,3 +1,7 @@
+# DeerFlow 사용자 매뉴얼
+
+Codex용 DeerFlow Skills 1.0.2 · 공개 스킬 23개
+
 ## DeerFlow란?
 
 DeerFlow는 ByteDance가 공개한 오픈소스 AI 에이전트 실행 환경입니다. 예를 들어 조사 보고서를 만들 때, 여러 에이전트에게 자료 수집을 나눠 맡기고, 수집한 데이터를 별도의 작업 공간에서 코드로 분석할 수 있습니다. 이때 논문을 어떤 기준으로 읽고 데이터를 어떻게 집계할지 같은 작업 절차를 담은 것이 **스킬**입니다. [DeerFlow 공식 저장소 ↗](https://github.com/bytedance/deer-flow)

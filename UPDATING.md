@@ -10,6 +10,7 @@
 | `UPDATING.md`, 루트 `AGENTS.md`의 업데이트 안내 | 이 지침과 진입 링크를 유지한다. 새로 만든 포크 전용 파일이 있으면 이 표에도 추가한다. |
 | `.agents/plugins/marketplace.json` | 마켓플레이스와 플러그인의 기존 식별자, 패키지 경로 `./plugins/deer-flow`, 비공식 표시명을 보존한다. |
 | `plugins/deer-flow/plugin.json`, `plugins/deer-flow/.codex-plugin/plugin.json` | 두 형식을 모두 유지한다. 플러그인 이름, 제작자, 포크 URL, 한국어 기본 프롬프트, 스킬 경로를 보존하고 배포 버전·원본 커밋·스킬 수를 함께 갱신한다. |
+| `MANUAL.ko.md` | 저장소 첫 화면에서 연결하는 한국어 매뉴얼이다. 배포용 HTML 매뉴얼이 바뀌면 양쪽의 설명·예시·목차를 함께 갱신한다. |
 | `plugins/deer-flow/skills/user-manual/` | 포크가 추가한 한국어 매뉴얼이다. 원본에 없는 디렉터리를 지우는 방식으로 스킬 전체를 복사하지 않는다. 원본에 동명의 스킬이 생기면 두 내용을 비교하고 설치 후 어떤 매뉴얼이 열리는지 확인한다. |
 | `LICENSE`, `plugins/deer-flow/LICENSE-BSD-3-Clause` | 포크의 설정과 안내 문서에 적용하는 BSD-3-Clause 전문을 유지한다. |
 | `LICENSES/DeerFlow-MIT.txt`, `plugins/deer-flow/LICENSE`, 개별 스킬의 라이선스·저작권 고지 | 원본에서 가져온 자료와 함께 배포한다. 새 버전에서 조건이나 저작권자가 바뀌면 해당 자료의 적용 범위와 고지 위치부터 확인한다. 예전 자료에 필요한 고지도 보존한다. |
