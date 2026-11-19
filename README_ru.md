@@ -4,7 +4,7 @@
 
 [![Python](https://img.shields.io/badge/Python-3.12%2B-3776AB?logo=python&logoColor=white)](./backend/pyproject.toml)
 [![Node.js](https://img.shields.io/badge/Node.js-22%2B-339933?logo=node.js&logoColor=white)](./Makefile)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSES/DeerFlow-MIT.txt)
 
 <a href="https://trendshift.io/repositories/14699" target="_blank"><img src="https://trendshift.io/api/badge/repositories/14699" alt="bytedance%2Fdeer-flow | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
 
@@ -242,7 +242,7 @@ make down   # Остановить и удалить контейнеры
 ```
 
 > [!TIP]
-> На Linux при ошибке `permission denied` для Docker daemon добавьте пользователя в группу `docker` и перелогиньтесь. Подробнее в [CONTRIBUTING.md](CONTRIBUTING.md#linux-docker-daemon-permission-denied).
+> На Linux при ошибке `permission denied` для Docker daemon добавьте пользователя в группу `docker` и перелогиньтесь. Подробнее в [CONTRIBUTING.md](https://github.com/bytedance/deer-flow/blob/585abb979fbc483485c0fc53ed0e571ab7eebadb/CONTRIBUTING.md#linux-docker-daemon-permission-denied).
 
 Адрес: http://localhost:2026
 
@@ -709,7 +709,7 @@ deerflow --json  "hello"                       # автономный режим
 
 ## Документация
 
-- [Руководство по участию](CONTRIBUTING.md) — настройка среды разработки, воркфлоу и гайдлайны
+- [Руководство по участию](https://github.com/bytedance/deer-flow/blob/585abb979fbc483485c0fc53ed0e571ab7eebadb/CONTRIBUTING.md) — настройка среды разработки, воркфлоу и гайдлайны
 - [Руководство по конфигурации](backend/docs/CONFIGURATION.md) — инструкции по настройке
 - [Обзор архитектуры](backend/CLAUDE.md) — технические детали
 - [Архитектура бэкенда](backend/README.md) — бэкенд и справочник API
@@ -734,11 +734,11 @@ DeerFlow обладает ключевыми высокопривилегиро�
 
 ## Участие в разработке
 
-Приветствуем контрибьюторов! Настройка среды разработки, воркфлоу и гайдлайны — в [CONTRIBUTING.md](CONTRIBUTING.md).
+Приветствуем контрибьюторов! Настройка среды разработки, воркфлоу и гайдлайны — в [CONTRIBUTING.md](https://github.com/bytedance/deer-flow/blob/585abb979fbc483485c0fc53ed0e571ab7eebadb/CONTRIBUTING.md).
 
 ## Лицензия
 
-Проект распространяется под [лицензией MIT](./LICENSE).
+Проект распространяется под [лицензией MIT](LICENSES/DeerFlow-MIT.txt).
 
 ## Благодарности
 

@@ -4,7 +4,7 @@
 
 [![Python](https://img.shields.io/badge/Python-3.12%2B-3776AB?logo=python&logoColor=white)](./backend/pyproject.toml)
 [![Node.js](https://img.shields.io/badge/Node.js-22%2B-339933?logo=node.js&logoColor=white)](./Makefile)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSES/DeerFlow-MIT.txt)
 
 <a href="https://trendshift.io/repositories/14699" target="_blank"><img src="https://trendshift.io/api/badge/repositories/14699" alt="bytedance%2Fdeer-flow | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
 > 2026 年 2 月 28 日，DeerFlow 2 发布后登上 GitHub Trending 第 1 名。非常感谢社区的支持，这是大家一起做到的。
@@ -319,7 +319,7 @@ make down   # 停止并移除容器
 
 访问地址：http://localhost:2026
 
-更完整的 Docker 开发说明见 [CONTRIBUTING.md](CONTRIBUTING.md)。
+更完整的 Docker 开发说明见 [CONTRIBUTING.md](https://github.com/bytedance/deer-flow/blob/585abb979fbc483485c0fc53ed0e571ab7eebadb/CONTRIBUTING.md)。
 
 #### 升级已有的代码仓库
 
@@ -1172,7 +1172,7 @@ deerflow --json  "hello"                       # 无头模式，输出按行分�
 
 ## 文档
 
-- [贡献指南](CONTRIBUTING.md) - 开发环境搭建与协作流程
+- [贡献指南](https://github.com/bytedance/deer-flow/blob/585abb979fbc483485c0fc53ed0e571ab7eebadb/CONTRIBUTING.md) - 开发环境搭建与协作流程
 - [配置指南](backend/docs/CONFIGURATION.md) - 安装与配置说明
 - [架构概览](backend/CLAUDE.md) - 技术架构说明
 - [后端架构](backend/README.md) - 后端架构与 API 参考
@@ -1219,13 +1219,13 @@ Docker 部署栈默认只把入口端口发布在 `127.0.0.1` 上，本地 `make
 
 ## 参与贡献
 
-欢迎参与贡献。开发环境、工作流和相关规范见 [CONTRIBUTING.md](CONTRIBUTING.md)。
+欢迎参与贡献。开发环境、工作流和相关规范见 [CONTRIBUTING.md](https://github.com/bytedance/deer-flow/blob/585abb979fbc483485c0fc53ed0e571ab7eebadb/CONTRIBUTING.md)。
 
 目前回归测试已经覆盖 Docker sandbox 模式识别，以及 `backend/tests/` 中 provisioner kubeconfig-path 处理相关测试。
 
 ## 许可证
 
-本项目采用 [MIT License](./LICENSE) 开源发布。
+本项目采用 [MIT License](LICENSES/DeerFlow-MIT.txt) 开源发布。
 
 ## 致谢
 

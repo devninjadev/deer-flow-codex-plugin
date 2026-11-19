@@ -948,7 +948,7 @@ Migrating an existing install from `file` to `db`:
 Run from the repository root using the backend's `uv` environment. The importer
 depends on the installed workspace packages; using a system `python` without
 an activated backend environment can fail with `ModuleNotFoundError: deerflow`.
-Complete the [backend installation](../../CONTRIBUTING.md#option-2-local-development)
+Complete the [backend installation](https://github.com/bytedance/deer-flow/blob/585abb979fbc483485c0fc53ed0e571ab7eebadb/CONTRIBUTING.md#option-2-local-development)
 first, including the `postgres` extra when applicable. Use the same exported
 configuration and runtime selectors as the running Gateway, such as
 `DEER_FLOW_CONFIG_PATH` and `DEER_FLOW_HOME`. `--project backend` selects the

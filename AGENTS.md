@@ -20,7 +20,7 @@ not load the nested files on their own.
 | Skill review, skill tests | [skills/AGENTS.md](skills/AGENTS.md) |
 | Extension examples | `examples/*/AGENTS.md` |
 
-Humans start at [README.md](README.md), [CONTRIBUTING.md](CONTRIBUTING.md) and
+Humans start at [README.md](README.md), [CONTRIBUTING.md](https://github.com/bytedance/deer-flow/blob/585abb979fbc483485c0fc53ed0e571ab7eebadb/CONTRIBUTING.md) and
 [docs/guide/](docs/guide/).
 
 ## Service topology

@@ -4,7 +4,7 @@
 
 [![Python](https://img.shields.io/badge/Python-3.12%2B-3776AB?logo=python&logoColor=white)](./backend/pyproject.toml)
 [![Node.js](https://img.shields.io/badge/Node.js-22%2B-339933?logo=node.js&logoColor=white)](./Makefile)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSES/DeerFlow-MIT.txt)
 
 <a href="https://trendshift.io/repositories/14699" target="_blank"><img src="https://trendshift.io/api/badge/repositories/14699" alt="bytedance%2Fdeer-flow | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
 > Em 28 de fevereiro de 2026, o DeerFlow chegou ao 🏆 1º lugar do GitHub Trending logo após o lançamento da versão 2. Muito obrigado à nossa comunidade, foram vocês que fizeram isso acontecer! 💪🔥
@@ -340,7 +340,7 @@ Os runs do Gateway usam o `recursion_limit` de nível superior do `config.yaml` 
 A seção opcional `database.checkpoint_cache` (apenas no modo de canal delta) faz cache dos históricos de checkpoint materializados: `type` é `memory` (padrão) ou `redis`, e `max_entries: 0` desativa o cache. O backend `redis` funciona só no Gateway/async; o caminho síncrono da TUI e do cliente embutido aceita apenas `memory`. O cache serve só para desempenho, os resultados são idênticos com ele desativado. Por isso ele nunca é congelado, e workers que compartilham o mesmo banco de checkpoints podem usar configurações de cache diferentes sem problema.
 
 > [!TIP]
-> No Linux, se os comandos baseados em Docker falharem com `permission denied while trying to connect to the Docker daemon socket at unix:///var/run/docker.sock`, adicione seu usuário ao grupo `docker` e faça login de novo antes de tentar outra vez. Veja a correção completa em [CONTRIBUTING.md](CONTRIBUTING.md#linux-docker-daemon-permission-denied).
+> No Linux, se os comandos baseados em Docker falharem com `permission denied while trying to connect to the Docker daemon socket at unix:///var/run/docker.sock`, adicione seu usuário ao grupo `docker` e faça login de novo antes de tentar outra vez. Veja a correção completa em [CONTRIBUTING.md](https://github.com/bytedance/deer-flow/blob/585abb979fbc483485c0fc53ed0e571ab7eebadb/CONTRIBUTING.md#linux-docker-daemon-permission-denied).
 
 **Produção** (constrói as imagens localmente, monta a configuração de runtime e os dados):
 
@@ -384,7 +384,7 @@ O DeerFlow continua usando os cabeçalhos `Forwarded` / `X-Forwarded-*` para rec
 >
 > A reconciliação usa um claim atômico de takeover que confere o lease de novo depois da seleção de candidatos, de modo que uma renovação bem-sucedida pelo dono vence a recuperação de órfãos e apenas um reconciliador pode reportar um run como recuperado. Quando vários workers do Gateway compartilham o backend de sandbox Docker/AIO ou E2B, configure também `sandbox.ownership.type: redis`; o E2B usa os leases durante a inicialização em background e a reconciliação periódica para que a limpeza de duplicados/órfãos não encerre o sandbox de um peer ativo.
 
-Veja o [CONTRIBUTING.md](CONTRIBUTING.md) para o guia detalhado de desenvolvimento com Docker.
+Veja o [CONTRIBUTING.md](https://github.com/bytedance/deer-flow/blob/585abb979fbc483485c0fc53ed0e571ab7eebadb/CONTRIBUTING.md) para o guia detalhado de desenvolvimento com Docker.
 
 #### Atualizando um checkout existente
 
@@ -1619,7 +1619,7 @@ Veja o guia completo em [backend/docs/TUI.md](backend/docs/TUI.md).
 
 ## Documentação
 
-- [Guia de contribuição](CONTRIBUTING.md) - Configuração do ambiente de desenvolvimento e fluxo de trabalho
+- [Guia de contribuição](https://github.com/bytedance/deer-flow/blob/585abb979fbc483485c0fc53ed0e571ab7eebadb/CONTRIBUTING.md) - Configuração do ambiente de desenvolvimento e fluxo de trabalho
 - [Guia de configuração](backend/docs/CONFIGURATION.md) - Instruções de instalação e configuração
 - [Visão geral da arquitetura](backend/CLAUDE.md) - Detalhes da arquitetura técnica
 - [Arquitetura do backend](backend/README.md) - Arquitetura do backend e referência da API
@@ -1666,7 +1666,7 @@ A stack Docker publica a porta de entrada apenas em `127.0.0.1`, e o `make dev` 
 
 ## Contribuindo
 
-Contribuições são bem-vindas! Veja no [CONTRIBUTING.md](CONTRIBUTING.md) a configuração do ambiente de desenvolvimento, o fluxo de trabalho e as diretrizes.
+Contribuições são bem-vindas! Veja no [CONTRIBUTING.md](https://github.com/bytedance/deer-flow/blob/585abb979fbc483485c0fc53ed0e571ab7eebadb/CONTRIBUTING.md) a configuração do ambiente de desenvolvimento, o fluxo de trabalho e as diretrizes.
 
 O `make test` do backend exclui a cobertura de APIs externas reais e de blocking I/O. Rode `cd backend && make test-blocking-io` para as verificações estritas de blocking I/O. Mantenedores podem rodar a suíte real do `DeerFlowClient` com `cd backend && make test-live`. Esse comando exige um `config.yaml` válido na raiz e credenciais de API. Ele pode gerar custos de API e criar sandboxes, artifacts ou arquivos locais. Execuções diretas do pytest exigem, além disso, `DEER_FLOW_RUN_LIVE_TESTS=1`.
 
@@ -1678,7 +1678,7 @@ Os orçamentos de assets por rota do frontend podem ser verificados com `cd fron
 
 ## Licença
 
-Este projeto é de código aberto e está disponível sob a [Licença MIT](./LICENSE).
+Este projeto é de código aberto e está disponível sob a [Licença MIT](LICENSES/DeerFlow-MIT.txt).
 
 ## Agradecimentos
 

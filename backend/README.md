@@ -617,4 +617,4 @@ See the [LICENSE](../LICENSE) file in the project root.
 
 ## Contributing
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for contribution guidelines.
+See [CONTRIBUTING.md](https://github.com/bytedance/deer-flow/blob/585abb979fbc483485c0fc53ed0e571ab7eebadb/backend/CONTRIBUTING.md) for contribution guidelines.

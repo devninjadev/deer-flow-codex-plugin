@@ -4,7 +4,7 @@
 
 [![Python](https://img.shields.io/badge/Python-3.12%2B-3776AB?logo=python&logoColor=white)](./backend/pyproject.toml)
 [![Node.js](https://img.shields.io/badge/Node.js-22%2B-339933?logo=node.js&logoColor=white)](./Makefile)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSES/DeerFlow-MIT.txt)
 
 <a href="https://trendshift.io/repositories/14699" target="_blank"><img src="https://trendshift.io/api/badge/repositories/14699" alt="bytedance%2Fdeer-flow | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
 > 2026년 2월 28일, DeerFlow는 버전 2 출시 이후 GitHub Trending에서 🏆 1위를 차지했습니다. 놀라운 커뮤니티 여러분께 진심으로 감사드립니다. 여러분이 이 일을 해냈습니다! 💪🔥
@@ -384,7 +384,7 @@ Gateway 실행(run)은 API 요청이 값을 지정하지 않은 경우 최상위
 선택 사항인 `database.checkpoint_cache` 섹션(delta 채널 모드 전용)은 구체화된 체크포인트 이력을 캐시합니다. `type`은 `memory`(기본값) 또는 `redis`이며, `max_entries: 0`으로 설정하면 캐시가 비활성화됩니다. `redis` 백엔드는 Gateway/비동기 경로 전용이며, 동기 TUI/임베디드 경로는 `memory`만 지원합니다. 이 캐시는 성능만을 위한 것으로 비활성화해도 결과가 동일합니다. 따라서 고정되는 일이 없으며, 하나의 체크포인트 데이터베이스를 공유하는 워커들이 서로 다른 캐시 설정으로 실행되어도 안전합니다. Redis 스레드 정리는 설정된 `key_prefix`를 glob 메타문자까지 포함해 리터럴 텍스트로 취급하므로, 삭제는 해당 네임스페이스와 스레드 안에서만 이루어집니다.
 
 > [!TIP]
-> Linux에서 Docker 기반 명령이 `permission denied while trying to connect to the Docker daemon socket at unix:///var/run/docker.sock` 오류로 실패한다면, 사용자를 `docker` 그룹에 추가하고 다시 로그인한 뒤 재시도하세요. 전체 해결 방법은 [CONTRIBUTING.md](CONTRIBUTING.md#linux-docker-daemon-permission-denied)를 참고하세요.
+> Linux에서 Docker 기반 명령이 `permission denied while trying to connect to the Docker daemon socket at unix:///var/run/docker.sock` 오류로 실패한다면, 사용자를 `docker` 그룹에 추가하고 다시 로그인한 뒤 재시도하세요. 전체 해결 방법은 [CONTRIBUTING.md](https://github.com/bytedance/deer-flow/blob/585abb979fbc483485c0fc53ed0e571ab7eebadb/CONTRIBUTING.md#linux-docker-daemon-permission-denied)를 참고하세요.
 
 **프로덕션**(이미지를 로컬에서 빌드하고, 런타임 설정과 데이터를 마운트):
 
@@ -442,7 +442,7 @@ DeerFlow는 프록시 뒤에서 브라우저 측 스킴과 출처를 복원하�
 >
 > 조정은 후보 선택 후 리스를 다시 확인하는 원자적 인계 점유(takeover claim)를 사용하므로, 성공한 소유자 갱신이 고아 실행 복구보다 우선하며 오직 하나의 조정자만 실행을 복구된 것으로 보고할 수 있습니다. 여러 Gateway 워커가 Docker/AIO 또는 E2B 샌드박스 백엔드를 공유하는 경우 `sandbox.ownership.type: redis`도 설정하세요. E2B는 백그라운드 시작과 주기적 조정 중에 리스를 사용하므로, 중복/고아 정리가 살아 있는 다른 인스턴스의 샌드박스를 종료할 수 없습니다.
 
-자세한 Docker 개발 가이드는 [CONTRIBUTING.md](CONTRIBUTING.md)를 참고하세요.
+자세한 Docker 개발 가이드는 [CONTRIBUTING.md](https://github.com/bytedance/deer-flow/blob/585abb979fbc483485c0fc53ed0e571ab7eebadb/CONTRIBUTING.md)를 참고하세요.
 
 #### 기존 체크아웃 업그레이드
 
@@ -1935,7 +1935,7 @@ deerflow --recursion-limit 250 --print "task" # override the headless agent-loop
 
 ## 문서
 
-- [기여 가이드](CONTRIBUTING.md) - 개발 환경 설정 및 워크플로
+- [기여 가이드](https://github.com/bytedance/deer-flow/blob/585abb979fbc483485c0fc53ed0e571ab7eebadb/CONTRIBUTING.md) - 개발 환경 설정 및 워크플로
 - [설정 가이드](backend/docs/CONFIGURATION.md) - 설치 및 설정 안내
 - [아키텍처 개요](backend/CLAUDE.md) - 기술 아키텍처 상세
 - [백엔드 아키텍처](backend/README.md) - 백엔드 아키텍처 및 API 레퍼런스
@@ -1982,7 +1982,7 @@ Docker 스택은 진입 포트를 `127.0.0.1`에만 공개하며, 로컬 `make d
 
 ## 기여하기
 
-기여를 환영합니다! 개발 환경 설정, 워크플로, 가이드라인은 [CONTRIBUTING.md](CONTRIBUTING.md)를 참고하세요.
+기여를 환영합니다! 개발 환경 설정, 워크플로, 가이드라인은 [CONTRIBUTING.md](https://github.com/bytedance/deer-flow/blob/585abb979fbc483485c0fc53ed0e571ab7eebadb/CONTRIBUTING.md)를 참고하세요.
 
 백엔드 `make test`는 실행 시간이 균형 있게 분배된 네 개의 샤드를 동시에 실행하며, 하나라도 실패하면 실패로 보고합니다. 샤드를 순차적으로 실행하려면 `make test TEST_JOBS=1`을 사용하세요. 이 명령은 실제 외부 API 테스트와 블로킹 I/O 테스트를 제외합니다. 엄격한 블로킹 I/O 검사는 `cd backend && make test-blocking-io`를 실행하세요. 메인테이너는 `cd backend && make test-live`로 실제 `DeerFlowClient` 테스트 스위트를 실행할 수 있습니다. 이 명령에는 유효한 루트 `config.yaml`과 API 자격 증명이 필요합니다. API 비용이 발생할 수 있으며 로컬 샌드박스, 아티팩트 또는 파일이 생성될 수 있습니다. pytest를 직접 실행할 때는 추가로 `DEER_FLOW_RUN_LIVE_TESTS=1`이 필요합니다.
 
@@ -1997,7 +1997,7 @@ perf:check`로 확인할 수 있습니다. 이 명령은 일반 프로덕션 빌
 
 ## 라이선스
 
-이 프로젝트는 오픈 소스이며 [MIT 라이선스](./LICENSE)로 제공됩니다.
+이 프로젝트는 오픈 소스이며 [MIT 라이선스](LICENSES/DeerFlow-MIT.txt)로 제공됩니다.
 
 ## 감사의 말
 

@@ -192,6 +192,6 @@ These span both layers and require reading multiple files to understand:
 - System topology & component depth → [`backend/docs/ARCHITECTURE.md`](../backend/docs/ARCHITECTURE.md)
 - Backend commands, TDD, harness/app boundary, config reload → [`backend/AGENTS.md`](../backend/AGENTS.md)
 - Frontend commands, source layout, streaming data flow → [`frontend/AGENTS.md`](../frontend/AGENTS.md)
-- Setup & install → [`Install.md`](../Install.md), [`CONTRIBUTING.md`](../CONTRIBUTING.md)
+- Setup & install → [`Install.md`](../Install.md), [`CONTRIBUTING.md`](https://github.com/bytedance/deer-flow/blob/585abb979fbc483485c0fc53ed0e571ab7eebadb/CONTRIBUTING.md)
 - Release process → [`RELEASING.md`](../RELEASING.md)
 - User-facing features & deployment sizing → [`README.md`](../README.md)

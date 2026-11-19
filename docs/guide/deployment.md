@@ -100,7 +100,7 @@ See [checkpoint operations](../../frontend/src/content/en/harness/checkpoints/op
 for the retention constraints.
 
 > [!TIP]
-> On Linux, if Docker-based commands fail with `permission denied while trying to connect to the Docker daemon socket at unix:///var/run/docker.sock`, add your user to the `docker` group and re-login before retrying. See [CONTRIBUTING.md](../../CONTRIBUTING.md#linux-docker-daemon-permission-denied) for the full fix.
+> On Linux, if Docker-based commands fail with `permission denied while trying to connect to the Docker daemon socket at unix:///var/run/docker.sock`, add your user to the `docker` group and re-login before retrying. See [CONTRIBUTING.md](https://github.com/bytedance/deer-flow/blob/585abb979fbc483485c0fc53ed0e571ab7eebadb/CONTRIBUTING.md#linux-docker-daemon-permission-denied) for the full fix.
 
 **Production** (builds images locally, mounts runtime config and data):
 
@@ -256,7 +256,7 @@ This also works in single-worker deployments with lease heartbeats disabled.
 If cleanup fails again, admission returns a busy response. Completed requests
 can still replay their saved results by idempotency key.
 
-See [CONTRIBUTING.md](../../CONTRIBUTING.md) for detailed Docker development guide.
+See [CONTRIBUTING.md](https://github.com/bytedance/deer-flow/blob/585abb979fbc483485c0fc53ed0e571ab7eebadb/CONTRIBUTING.md) for detailed Docker development guide.
 
 ## Upgrading an existing checkout
 

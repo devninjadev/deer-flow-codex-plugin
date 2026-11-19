@@ -31,7 +31,7 @@ DeerFlow uses a YAML configuration file that should be placed in the **project r
    ```
 
 4. **Verify configuration in the backend environment**:
-   Complete the [local development installation](../../CONTRIBUTING.md#option-2-local-development),
+   Complete the [local development installation](https://github.com/bytedance/deer-flow/blob/585abb979fbc483485c0fc53ed0e571ab7eebadb/CONTRIBUTING.md#option-2-local-development),
    including any extras required by your configuration (such as `postgres`).
    Run from the repository root. `--project backend` selects the installed
    backend environment while keeping relative configuration and runtime paths

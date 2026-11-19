@@ -492,4 +492,4 @@ make test-live
 
 ## 参与贡献
 
-贡献指南请参阅 [CONTRIBUTING.md](CONTRIBUTING.md)。
+贡献指南请参阅 [CONTRIBUTING.md](https://github.com/bytedance/deer-flow/blob/585abb979fbc483485c0fc53ed0e571ab7eebadb/backend/CONTRIBUTING.md)。

@@ -4,7 +4,7 @@
 
 [![Python](https://img.shields.io/badge/Python-3.12%2B-3776AB?logo=python&logoColor=white)](./backend/pyproject.toml)
 [![Node.js](https://img.shields.io/badge/Node.js-22%2B-339933?logo=node.js&logoColor=white)](./Makefile)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSES/DeerFlow-MIT.txt)
 
 <a href="https://trendshift.io/repositories/14699" target="_blank"><img src="https://trendshift.io/api/badge/repositories/14699" alt="bytedance%2Fdeer-flow | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
 > Le 28 février 2026, DeerFlow a décroché la 🏆 1re place sur GitHub Trending suite au lancement de la version 2. Un immense merci à notre incroyable communauté — c'est grâce à vous ! 💪🔥
@@ -235,7 +235,7 @@ make docker-start   # Start services (auto-detects sandbox mode from config.yaml
 Les processus backend récupèrent automatiquement les changements dans `config.yaml` au prochain accès à la configuration, donc les mises à jour de métadonnées des modèles ne nécessitent pas de redémarrage manuel en développement.
 
 > [!TIP]
-> Sous Linux, si les commandes Docker échouent avec `permission denied while trying to connect to the Docker daemon socket at unix:///var/run/docker.sock`, ajoutez votre utilisateur au groupe `docker` et reconnectez-vous avant de réessayer. Voir [CONTRIBUTING.md](CONTRIBUTING.md#linux-docker-daemon-permission-denied) pour la solution complète.
+> Sous Linux, si les commandes Docker échouent avec `permission denied while trying to connect to the Docker daemon socket at unix:///var/run/docker.sock`, ajoutez votre utilisateur au groupe `docker` et reconnectez-vous avant de réessayer. Voir [CONTRIBUTING.md](https://github.com/bytedance/deer-flow/blob/585abb979fbc483485c0fc53ed0e571ab7eebadb/CONTRIBUTING.md#linux-docker-daemon-permission-denied) pour la solution complète.
 
 **Production** (build des images en local, montage de la config et des données) :
 
@@ -249,7 +249,7 @@ make down   # Stop and remove containers
 
 Accès : http://localhost:2026
 
-Voir [CONTRIBUTING.md](CONTRIBUTING.md) pour le guide complet de développement avec Docker.
+Voir [CONTRIBUTING.md](https://github.com/bytedance/deer-flow/blob/585abb979fbc483485c0fc53ed0e571ab7eebadb/CONTRIBUTING.md) pour le guide complet de développement avec Docker.
 
 #### Option 2 : Développement local
 
@@ -783,7 +783,7 @@ Voir [backend/docs/TUI.md](backend/docs/TUI.md) pour le guide complet.
 
 ## Documentation
 
-- [Guide de contribution](CONTRIBUTING.md) - Mise en place de l'environnement de développement et workflow
+- [Guide de contribution](https://github.com/bytedance/deer-flow/blob/585abb979fbc483485c0fc53ed0e571ab7eebadb/CONTRIBUTING.md) - Mise en place de l'environnement de développement et workflow
 - [Guide de configuration](backend/docs/CONFIGURATION.md) - Instructions d'installation et de configuration
 - [Vue d'ensemble de l'architecture](backend/CLAUDE.md) - Détails de l'architecture technique
 - [Architecture backend](backend/README.md) - Architecture backend et référence API
@@ -808,13 +808,13 @@ DeerFlow dispose de capacités clés à hauts privilèges, notamment **l'exécut
 
 ## Contribuer
 
-Les contributions sont les bienvenues ! Consultez [CONTRIBUTING.md](CONTRIBUTING.md) pour la mise en place de l'environnement de développement, le workflow et les conventions.
+Les contributions sont les bienvenues ! Consultez [CONTRIBUTING.md](https://github.com/bytedance/deer-flow/blob/585abb979fbc483485c0fc53ed0e571ab7eebadb/CONTRIBUTING.md) pour la mise en place de l'environnement de développement, le workflow et les conventions.
 
 La couverture de tests de régression inclut la détection du mode sandbox Docker et les tests de gestion du kubeconfig-path du provisioner dans `backend/tests/`.
 
 ## Licence
 
-Ce projet est open source et disponible sous la [Licence MIT](./LICENSE).
+Ce projet est open source et disponible sous la [Licence MIT](LICENSES/DeerFlow-MIT.txt).
 
 ## Remerciements
 

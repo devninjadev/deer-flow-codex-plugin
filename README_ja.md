@@ -4,7 +4,7 @@
 
 [![Python](https://img.shields.io/badge/Python-3.12%2B-3776AB?logo=python&logoColor=white)](./backend/pyproject.toml)
 [![Node.js](https://img.shields.io/badge/Node.js-22%2B-339933?logo=node.js&logoColor=white)](./Makefile)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSES/DeerFlow-MIT.txt)
 
 <a href="https://trendshift.io/repositories/14699" target="_blank"><img src="https://trendshift.io/api/badge/repositories/14699" alt="bytedance%2Fdeer-flow | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
 > 2026年2月28日、バージョン2のリリースに伴い、DeerFlowはGitHub Trendingで🏆 第1位を獲得しました。素晴らしいコミュニティの皆さん、ありがとうございます！💪🔥
@@ -236,7 +236,7 @@ make down   # コンテナを停止して削除
 
 アクセス: http://localhost:2026
 
-詳細なDocker開発ガイドは[CONTRIBUTING.md](CONTRIBUTING.md)をご覧ください。
+詳細なDocker開発ガイドは[CONTRIBUTING.md](https://github.com/bytedance/deer-flow/blob/585abb979fbc483485c0fc53ed0e571ab7eebadb/CONTRIBUTING.md)をご覧ください。
 
 #### オプション2: ローカル開発
 
@@ -770,7 +770,7 @@ deerflow --json  "hello"                       # ヘッドレスで改行区切�
 
 ## ドキュメント
 
-- [コントリビュートガイド](CONTRIBUTING.md) - 開発環境のセットアップとワークフロー
+- [コントリビュートガイド](https://github.com/bytedance/deer-flow/blob/585abb979fbc483485c0fc53ed0e571ab7eebadb/CONTRIBUTING.md) - 開発環境のセットアップとワークフロー
 - [設定ガイド](backend/docs/CONFIGURATION.md) - セットアップと設定の手順
 - [アーキテクチャ概要](backend/CLAUDE.md) - 技術的なアーキテクチャの詳細
 - [バックエンドアーキテクチャ](backend/README.md) - バックエンドアーキテクチャとAPIリファレンス
@@ -795,13 +795,13 @@ DeerFlowは**システムコマンドの実行、リソース操作、ビジネ�
 
 ## コントリビュート
 
-コントリビューションを歓迎します！開発環境のセットアップ、ワークフロー、ガイドラインについては[CONTRIBUTING.md](CONTRIBUTING.md)をご覧ください。
+コントリビューションを歓迎します！開発環境のセットアップ、ワークフロー、ガイドラインについては[CONTRIBUTING.md](https://github.com/bytedance/deer-flow/blob/585abb979fbc483485c0fc53ed0e571ab7eebadb/CONTRIBUTING.md)をご覧ください。
 
 回帰テストのカバレッジには、`backend/tests/`でのDockerサンドボックスモード検出とプロビジョナーkubeconfig-pathハンドリングテストが含まれます。
 
 ## ライセンス
 
-このプロジェクトはオープンソースであり、[MITライセンス](./LICENSE)の下で提供されています。
+このプロジェクトはオープンソースであり、[MITライセンス](LICENSES/DeerFlow-MIT.txt)の下で提供されています。
 
 ## 謝辞
 
